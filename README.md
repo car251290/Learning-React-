@@ -22,3 +22,9 @@ A bundler, such as webpack or Parcel. It lets you write modular code and bundle 
 A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.
 If you prefer to set up your own JavaScript toolchain from scratch, check out this guide that re-creates some of the Create React App functionality.
 
+## Hooks
+But what is a Hook?
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. (We don’t recommend rewriting your existing components overnight but you can start using Hooks in the new ones if you’d like.)
+
+
+
