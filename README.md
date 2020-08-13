@@ -26,5 +26,10 @@ If you prefer to set up your own JavaScript toolchain from scratch, check out th
 But what is a Hook?
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. (We don’t recommend rewriting your existing components overnight but you can start using Hooks in the new ones if you’d like.)
 
+## Rules for Hooks
 
+Hooks are JavaScript functions, but they impose two additional rules:
+Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
+Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions. (There is just one other valid place to call Hooks — your own custom Hooks. We’ll learn about them in a moment.)
+We provide a linter plugin to enforce these rules automatically. We understand these rules might seem limiting or confusing at first, but they are essential to making Hooks work well.
 
