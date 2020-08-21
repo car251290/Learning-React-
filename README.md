@@ -36,4 +36,17 @@ We provide a linter plugin to enforce these rules automatically. We understand t
 You’ve likely performed data fetching, subscriptions, or manually changing the DOM from React components before. We call these operations “side effects” (or “effects” for short) because they can affect other components and can’t be done during rendering.
 The Effect Hook, useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount in React classes, but unified into a single API. (We’ll show examples comparing useEffect to these methods in Using the Effect Hook.)
 
+## get stuck in the code 
+Stack Overflow
+Stack Overflow is a popular forum to ask code-level questions or if you’re stuck with a specific error. Read through the existing questions tagged with reactjs or ask your own!
+
+## Popular Discussion Forums
+There are many online forums which are a great place for discussion about best practices and application architecture as well as the future of React. If you have an answerable code-level question, Stack Overflow is usually a better fit.
+Each community consists of many thousands of React users.
+DEV’s React community
+Hashnode’s React community
+Reactiflux online chat
+Reddit’s React community
+Spectrum’s React community
+
 
